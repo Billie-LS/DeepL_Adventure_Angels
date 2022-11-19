@@ -1,8 +1,8 @@
 # **Columbia University Engineering, New York FinTech BootCamp** 
 # **August 2022 Cohort**
 
-![image15](images/image15.png)
-## *Module 12, Challenge -  Data Science & Machine Learning - Supervised Learning*
+![image1](images/image1.png)
+## *Module 13, Challenge -  Data Science & Machine Learning - Neural Networks, DeepLearning*
 Objective - use various techniques to train and evaluate supervised learning models with imbalanced classes to identify the creditworthiness of credit applicants. 
 
 Scenario - Given a dataset of historical lending activity from a peer-to-peer lending services company, use your knowledge of the imbalanced-learn library with a logistic regression model to compare two versions (imbalanced vs resampled) of the dataset and build a model that can identify the creditworthiness of borrowers.  
@@ -191,7 +191,7 @@ git version 2.37.2
  In the terminal, navigate to directory where you want to install this application from the repository and enter the following command
 
 ```python
-git clone git@github.com:Billie-LS/give_me_cred.git
+git clone git@github.com:Billie-LS/DeepL_Adventure_Angels.git
 ```
 
 ---
@@ -221,10 +221,10 @@ ___
 Version control can be reviewed at:
 
 ```python
-https://github.com/Billie-LS/give_me_cred
+https://github.com/Billie-LS/DeepL_Adventure_Angels
 ```
 
-[repository](https://github.com/Billie-LS/give_me_cred)
+[repository](https://github.com/Billie-LS/DeepL_Adventure_Angels)
 
 
 ___
@@ -244,6 +244,13 @@ Vinicio De Sola
     [@GitHub](https://github.com/penpen86)
 
 
+### **Outside instructors**
+Jeff Heaton
+    [LinkedIn](https://www.linkedin.com/in/jeffheaton/)
+    [@GitHub](https://github.com/jeffheaton/t81_558_deep_learning/blob/master/install/tensorflow-install-conda-mac-metal-jul-2022.ipynb)
+    [YouTube](https://www.youtube.com/watch?v=5DgWvU0p2bk)
+
+
 ### **BootCamp teaching assistant**
 
 Santiago Pedemonte
@@ -252,26 +259,34 @@ Santiago Pedemonte
 
 
 ### **BootCamp classmates**
-Stratis Gavnoudias
-    [LinkedIn](https://www.linkedin.com/in/stratis-gavnoudias-465b527/)
-    [@GitHub](https://github.com/sgavnoudias)
+
+someone
+    [LinkedIn](https://www.somewhere)
+    [@GitHub](https://github.com/someone)
 
 
 ### **askBCS assistants**
 
 None
+
+
+
 ___
 
 ### **Additional references and or resources utilized**
 
-[StackAbuse](https://stackabuse.com/k-nearest-neighbors-algorithm-in-python-and-scikit-learn/)
+[pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.values.html)
 
-[Stack Overflow](https://stackoverflow.com/questions/15065833/imbalance-in-scikit-learn)
+[pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy)
 
-[Stack Overflow](https://stackoverflow.com/questions/48244219/is-sklearn-metrics-mean-squared-error-the-larger-the-better-negated)
+[StackAbuse](https://)
 
-*For accuracy hyperparameter analysis-*
-[GitHub](https://github.com/krishnaik06/AQI-Project/blob/master/KNearestNeighborRegressor.ipynb)
+[Stack Overflow](https://)
+
+[Stack Overflow](https://)
+
+*For something other analysis-*
+[GitHub](https://)
 
 
 ___
