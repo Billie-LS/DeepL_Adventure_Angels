@@ -281,7 +281,7 @@ ___
 
 [Stack Overflow](https://stackoverflow.com/questions/51731207/python-neural-network-typeerror-history-object-is-not-subscriptable)
 
-
+[PredictiveHacks](https://predictivehacks.com/how-to-prevent-overfitting-in-neural-networks-with-tensorflow-2-0/)
 
 [StackAbuse](https://)
 
