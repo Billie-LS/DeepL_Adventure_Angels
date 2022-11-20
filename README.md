@@ -34,7 +34,7 @@ ___
 ## Primary Challenge - Modeling & Analysis
 ### Original Logistic Regression Analysis on original imbalanced data
 
-![image1](images/image1.png)
+![image](images/image.png)
 
 ### Original Logistic Regression Analysis on original imbalanced data after Random Oversampling
 
@@ -278,6 +278,10 @@ ___
 [pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.values.html)
 
 [pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy)
+
+[Stack Overflow](https://stackoverflow.com/questions/51731207/python-neural-network-typeerror-history-object-is-not-subscriptable)
+
+
 
 [StackAbuse](https://)
 
