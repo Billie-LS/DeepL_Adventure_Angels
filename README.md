@@ -3,105 +3,70 @@
 
 ![image1](images/image1.png)
 ## *Module 13, Challenge -  Data Science & Machine Learning - Neural Networks, DeepLearning*
-Objective - use various techniques to train and evaluate supervised learning models with imbalanced classes to identify the creditworthiness of credit applicants. 
+Objective - Compile and Evaluate a Binary Classification Model using a Neural Network that predicts if applicants will be successful if funded through venture capital firm. 
 
-Scenario - Given a dataset of historical lending activity from a peer-to-peer lending services company, use your knowledge of the imbalanced-learn library with a logistic regression model to compare two versions (imbalanced vs resampled) of the dataset and build a model that can identify the creditworthiness of borrowers.  
+Scenario - Given a historical dataset CSV file containing more than 34,000 organizations that have received funding, employ neural network knowledge to evaluate dataset features and create a binary classifier model that will predict an applicant will become a successful or failed business.  
 
-Product - Jupyter notebook with both data set versions providing the count of the 'target' classes, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
+Product - Jupyter notebook with -
+
+* > Data preprocessing for a neural network model.
+* > binary classification model using a deep neural network.
+* > Utilize model-fit-predict pattern to compile and evaluate.
+* > Model optimization.
 
 ---
 ## **Methods**
 ### The code script analysis performed uses or employs applications of:
 
-    PCA, 
+    Data encoding with OneHotEncoder, 
+    train_test_split(),
     Feature Scaling with StandardScaler,
-    train_test_split,
-    random undersampling,
-    random oversampling,
-    SMOTEENN resampling,
-    K-Means (KMeans) 2 and 3 cluster modeling,
-    KN regression (KNeighborsRegressor) modeling,
-    KNeighborsClassifier analysis modeling,
-    random forest (RandomForestClassifier) modeling,
-    logistic regression (LogisticRegression) modeling,
-    confusion matrices,
-    balanced_accuracy scores,
-    imbalanced classification reports, 
-    HV scatter plot,
-    seaborn heatmaps
+    keras.callbacks.EarlyStopping(),
+    keras.callbacks.ModelCheckpoint(),
 
 ___
-## Primary Challenge - Modeling & Analysis
-### Original Logistic Regression Analysis on original imbalanced data
+## Challenge - Modeling & Analysis
+### Original 
 
-![image](images/image.png)
-
-### Original Logistic Regression Analysis on original imbalanced data after Random Oversampling
-
-![image2](images/image2.png)
+![image1](images/image2.png)
+![image3](images/image3.png)
 
 ___
+
+## Challenge - Modeling & Analysis
+### Optimization 
+
+![image4](images/image4.png)
+![image7](images/image7.png)
+![image5](images/image5.png)
+![image6](images/image6.png)
+
+
+![image8](images/image8.png)
+![image9](images/image9.png)
+![image10](images/image10.png)
+
+
+![image11](images/image11.png)
+![image12](images/image12.png)
+![image13](images/image13.png)
+
+
+___
+
+
 ## Supplemental Modeling and Analysis
 
 Supplemental processing and analysis:
 
-Beyond the scope of the assignment, the author sought to conduct additional analysis of the data obtained; supplemental material script precedes the primary assignment. 
-___
-
-### Original imbalanced data Modeling Analysis with -
-    Feature Scaling with StandardScaler,
-    Calculated Best K for KNeighborsClassifier through maximum f1,
-    KNN for Classification.
-    
-![image3](images/image3.png)    
-
-![image4](images/image4.png)
-
-___
-
-### Original imbalanced data Modeling Analysis with -
-    Feature Scaling with StandardScaler,
-    Calculated Best K for KN Regression (KNeighborsRegressor) through minimum MAE,
-    KNN Regression.
-    
-![image5](images/image5.png)    
-
-![image6](images/image6.png)
-
-![image7](images/image7.png)
-
-___
-
-### Original imbalanced data Modeling Analysis with -
-    Random undersampling (RandomUnderSampler),
-    RandomForestClassifier
-    
-![image8](images/image8.png)    
-
-___
-
-### Original imbalanced data Modeling Analysis with -
-    Random oversampling (RandomOverSampler),
-    RandomForestClassifier
- 
-![image9](images/image9.png)    
-
-___
-
-### Original imbalanced data Modeling Analysis with -
-    Feature Scaling with StandardScaler,
-    SMOTEENN resampling,
-    RandomForestClassifier
- 
-![image10](images/image10.png)    
-
+Beyond the scope of the assignment, the author sought to conduct additional analysis of the data obtained; supplemental material script with model building follows the primary challenge. Additionally, supplemetal experimental notebooks are included.
 
 ---
 ## **Technologies**
 ---
 ### **Dependencies**
 
-This project leverages Jupyter Lab v3.4.4 and Python version 3.9.13 (main, Oct 13 2022, 16:12:30) with the following packages:
+This project leverages Jupyter Lab v3.4.4 and Python version 3.9.13 packaged by conda-forge | (main, May 27 2022, 17:01:00) with the following packages:
 
 
 * [sys](https://docs.python.org/3/library/sys.html) - module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter.
@@ -114,49 +79,11 @@ This project leverages Jupyter Lab v3.4.4 and Python version 3.9.13 (main, Oct 1
 
 * [train_test_split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) - from sklearn.model_selection, a quick utility that wraps input validation and next(ShuffleSplit().split(X, y)) and application to input data into a single call for splitting (and optionally subsampling) data in a oneliner.
 
-* [cross_val_score](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_val_score.html) - from sklearn.model_selection, evaluates a score by cross-validation.
-
-* [LogisticRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) - from sklearn.linear_model, a Logistic Regression (aka logit, MaxEnt) classifier; implements regularized logistic regression using the ‘liblinear’ library, ‘newton-cg’, ‘sag’, ‘saga’ and ‘lbfgs’ solvers - regularization is applied by default.
-
-* [RandomForestClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) - from sklearn.ensemble, a random forest classifier; a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.
-
-* [confusion_matrix](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html) - from sklearn.metrics, computes confusion matrix to evaluate the accuracy of a classification; confusion matrix *C* is such that *Cij* is equal to the number of observations known to be in group *i* and predicted to be in group *j*.
-
-* [balanced_accuracy_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.balanced_accuracy_score.html) - from sklearn.metrics, compute the balanced accuracy in binary and multiclass classification problems to deal with imbalanced datasets; defined as the average of recall obtained on each class.
-
-* [f1_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html) - from sklearn.metrics, computes the F1 score, also known as balanced F-score or F-measure; can be interpreted as a harmonic mean of the precision and recall, where an F1 score reaches its best value at 1 and worst score at 0.
-
-* [mean_absolute_error](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_absolute_error.html) - from sklearn.metrics, mean absolute error regression loss.
-
-* [RandomOverSampler](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.RandomOverSampler.html) - from imblearn.over_sampling, a class to perform random over-sampling; object to over-sample the minority class(es) by picking samples at random with replacement.
-
-* [RandomUnderSampler](https://imbalanced-learn.org/stable/references/generated/imblearn.under_sampling.RandomUnderSampler.html) - from imblearn.under_sampling, a class to perform random under-sampling; under-sample the majority class(es) by randomly picking samples with or without replacement. 
- 
-* [SMOTEENN](https://imbalanced-learn.org/stable/references/generated/imblearn.combine.SMOTEENN.html) - from imblearn.combine, over-sampling using SMOTE and cleaning using ENN; combine over- and under-sampling using SMOTE and Edited Nearest Neighbours.
-
-* [classification_report_imbalanced](https://glemaitre.github.io/imbalanced-learn/generated/imblearn.metrics.classification_report_imbalanced.html) - from imblearn.metrics, compiles the metrics: precision/recall/specificity, geometric mean, and index balanced accuracy of the geometric mean.
-
-* [KMeans](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) - from sklearn.cluster, K-Means clustering.
-
-* [PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html) - from sklearn.decomposition, principal component analysis (PCA); linear dimensionality reduction using Singular Value Decomposition of the data to project it to a lower dimensional space.
+* [OneHotEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html) - from sklearn.preprocessing, encode categorical features as a one-hot numeric array. Features are encoded using a one-hot (aka ‘one-of-K’ or ‘dummy’) encoding scheme; creates a binary column for each category and returns a sparse matrix or dense array.
 
 * [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) - from sklearn.preprocessing, standardize features by removing the mean and scaling to unit variance.
 
-* [KNeighborsRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html) - from sklearn.neighbors, a regression based on k-nearest neighbors; target is predicted by local interpolation of the targets associated of the nearest neighbors in the training set.
-
-* [KNeighborsClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html) - from sklearn.neighbors, a classifier implementing the k-nearest neighbors vote.
-
-* [NearestNeighbors](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeighbors.html) - from sklearn.neighbors, a unsupervised learner for implementing neighbor searches.
-
-* [kneighbors_graph](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.kneighbors_graph.html) - from sklearn.neighbors, computes the (weighted) graph of k-Neighbors for points in X.
-
-* [kneighbors_graph](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.kneighbors_graph.html) - from sklearn.neighbors, computes the (weighted) graph of k-Neighbors for points in X.
-
-* [hvplot](https://hvplot.holoviz.org/getting_started/hvplot.html) - provides a high-level plotting API built on HoloViews that provides a general and consistent API for plotting data into numerous formats listed within linked documentation.
-
 * [matplotlib.pyplot](https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html) a state-based interface to matplotlib. It provides an implicit, MATLAB-like, way of plotting. It also opens figures on your screen, and acts as the figure GUI manager
-
-* [Seaborn](https://seaborn.pydata.org/tutorial/introduction) a library for making statistical graphics in Python. It builds on top of matplotlib and integrates closely with pandas data structures.
 
 ___
 
@@ -174,10 +101,12 @@ Homebrew 3.6.11
     Homebrew/homebrew-core (git revision 01c7234a8be; last commit 2022-11-15)
     Homebrew/homebrew-cask (git revision b177dd4992; last commit 2022-11-15)
 
-anaconda Command line client 1.10.0
+Python Platform: macOS-13.0.1-arm64-arm-64bit
 
-    conda 22.9.0
-    Python 3.9.13
+    Python version 3.9.13 packaged by conda-forge
+    Scikit-Learn 1.1.3
+    Tensor Flow Version: 2.10.0
+    Keras Version: 2.10.0
     pandas 1.5.1
 
 pip 22.3 from /opt/anaconda3/lib/python3.9/site-packages/pip (python 3.9)
@@ -260,10 +189,7 @@ Santiago Pedemonte
 
 ### **BootCamp classmates**
 
-someone
-    [LinkedIn](https://www.somewhere)
-    [@GitHub](https://github.com/someone)
-
+None
 
 ### **askBCS assistants**
 
