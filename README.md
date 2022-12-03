@@ -79,6 +79,14 @@ This project leverages Jupyter Lab v3.4.4 and Python version 3.9.13 packaged by 
 
 * [Path](https://pandas.pydata.org/docs/reference/api/pandas.concat.html) - from pathlib - Object-oriented filesystem paths, Path instantiates a concrete path for the platform the code is running on.
 
+* [Scikit-learn](https://scikit-learn.org/stable/getting_started.html) - an open source machine learning library that supports supervised and unsupervised learning; provides various tools for model fitting, data preprocessing, model selection, model evaluation, and many other utilities.
+
+* [tensorflow](https://www.tensorflow.org/) - an end-to-end machine learning platform.
+
+* [tf.keras](https://www.tensorflow.org/api_docs/python/tf/keras/Model) - a compact, easy to learn, high-level Python library run on top of TensorFlow framework; made with focus of understanding deep learning techniques, such as creating layers for neural networks maintaining the concepts of shapes and mathematical details.
+
+* [keras](https://keras.io/about/) - a deep learning API written in Python, running on top of the machine learning platform TensorFlow.
+
 * [train_test_split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) - from sklearn.model_selection, a quick utility that wraps input validation and next(ShuffleSplit().split(X, y)) and application to input data into a single call for splitting (and optionally subsampling) data in a oneliner.
 
 * [OneHotEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html) - from sklearn.preprocessing, encode categorical features as a one-hot numeric array. Features are encoded using a one-hot (aka ‘one-of-K’ or ‘dummy’) encoding scheme; creates a binary column for each category and returns a sparse matrix or dense array.
