@@ -41,11 +41,13 @@ ___
 ![image5](images/image5.png)
 ![image6](images/image6.png)
 
+![image8](images/image8a.png)
+![image9](images/image9a.png)
+![image10](images/image10a.png)
 
-![image8](images/image8.png)
-![image9](images/image9.png)
-![image10](images/image10.png)
-
+![image14](images/image14.png)
+![image15](images/image15.png)
+![image16](images/image16.png)
 
 ![image11](images/image11.png)
 ![image12](images/image12.png)
