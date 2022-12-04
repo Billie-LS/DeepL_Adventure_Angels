@@ -221,6 +221,8 @@ ___
 
 [PredictiveHacks](https://predictivehacks.com/how-to-prevent-overfitting-in-neural-networks-with-tensorflow-2-0/)
 
+[Stack Overflow](https://stackoverflow.com/questions/107701/how-can-i-remove-ds-store-files-from-a-git-repository)
+
 [Stack Overflow](https://stackoverflow.com/questions/51731207/python-neural-network-typeerror-history-object-is-not-subscriptable)
 
 [Stack Overflow](https://stackoverflow.com/questions/51293196/attributeerror-numpy-ndarray-object-has-no-attribute-drop)
@@ -233,21 +235,11 @@ ___
 
 [TensorFlow](https://www.tensorflow.org/api_docs/python/tf/keras/activations)
 
-
 [GitHub](https://github.com/christianversloot/machine-learning-articles/blob/main/automating-neural-network-configuration-with-keras-tuner.md)
 
 [GitHub](https://github.com/christianversloot/machine-learning-articles/blob/main/automating-neural-network-configuration-with-keras-tuner.md)
 
 [GitHub](https://github.com/kirpa1986/FinTech-Projects/tree/0f516333ff7acadfd6f63e7c3069dd72f9da5095/Module%2013%20Challenge%20-%20Venture%20Funding%20with%20Deep%20Learning)
-
-
-[Stack Overflow](https://)
-
-[Stack Overflow](https://)
-
-*For something other analysis-*
-[GitHub](https://)
-
 
 ___
 ## **License**
